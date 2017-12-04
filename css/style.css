@@ -355,14 +355,14 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 550px;
   float: left;
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
 #fh5co-event .display-t,
 #fh5co-event .display-tc {
-  height: 700px;
+  height: 550px;
   display: table;
   width: 100%;
 }
@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.1);
-  padding: 30px;
+  padding: 15px;
   width: 100%;
   float: left;
   -webkit-border-radius: 4px;
@@ -998,6 +998,8 @@ form label {
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
+#presents,
+#hotels,
 .fh5co-section {
   padding: 7em 0;
   clear: both;
@@ -1014,6 +1016,12 @@ form label {
   .fh5co-section {
     padding: 3em 0;
   }
+}
+
+
+#fh5co-event {
+  padding: 2em 0;
+  clear: both;
 }
 
 .fh5co-section-gray {
@@ -1171,7 +1179,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 0em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1510,7 +1518,7 @@ form label {
 .gototop {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 40px;
   z-index: 999;
   opacity: 0;
   visibility: hidden;
