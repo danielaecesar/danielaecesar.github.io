@@ -1113,13 +1113,24 @@ form label {
   float: left;
   margin-left: 5px;
 }
-.couple-half .desc-groom {
-  padding-right: 180px;
-  text-align: right;
+.couple-half {
+  position: relative;
 }
-.couple-half .desc-bride {
-  padding-left: 180px;
+.desc-groom {
+  text-align: right;
+  padding-right: 180px;
+  position: absolute;
+  top: 57%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.desc-bride {
   text-align: left;
+  padding-left: 180px;
+  position: absolute;
+  top: 57%;
+  transform: translateY(-50%);
+  left: 0;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {

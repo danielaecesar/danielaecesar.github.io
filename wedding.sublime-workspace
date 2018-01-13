@@ -1,0 +1,803 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"thought",
+				"thoughtful"
+			],
+			[
+				"aquisi",
+				"acquisition"
+			],
+			[
+				"gt",
+				"tab:clf_on_gt_normalized_defo_f1s"
+			],
+			[
+				"cnc",
+				"sec:11_cnc_vs_clf_in_sf"
+			],
+			[
+				"footno",
+				"footnotesize"
+			],
+			[
+				"clf",
+				"tab:clf_on_surface_reflectance"
+			],
+			[
+				"dc",
+				"tab:dc_on_unnormalized"
+			],
+			[
+				"atmos",
+				"atmospheric"
+			],
+			[
+				"avai",
+				"available"
+			],
+			[
+				"accura",
+				"accurate"
+			],
+			[
+				"framwo",
+				"framework"
+			],
+			[
+				"Acknow",
+				"Acknowledgment"
+			],
+			[
+				"advant",
+				"advantageous"
+			],
+			[
+				"neigh",
+				"neighborhood"
+			],
+			[
+				"normalized",
+				"tab:clf_on_gt_normalized_seg_accus"
+			],
+			[
+				"accompli",
+				"accomplished"
+			],
+			[
+				"beg",
+				"begin\t\\begin{}…\\end{}"
+			],
+			[
+				"tiles",
+				"tab:tiles_info"
+			],
+			[
+				"insign",
+				"insignificant"
+			],
+			[
+				"likel",
+				"likely"
+			],
+			[
+				"av",
+				"available"
+			],
+			[
+				"is",
+				"is_training"
+			],
+			[
+				"iden",
+				"identity_fn"
+			],
+			[
+				"sof",
+				"softmax_b"
+			],
+			[
+				"print",
+				"print_shape"
+			],
+			[
+				"use",
+				"use_dataset_class"
+			],
+			[
+				"vari",
+				"variable"
+			],
+			[
+				"train_data",
+				"train_data_node"
+			],
+			[
+				"resi",
+				"residual_blks_per_subsample"
+			],
+			[
+				"ini",
+				"initial_subsample"
+			],
+			[
+				"NU",
+				"NUM_CHANNELS"
+			],
+			[
+				"BA",
+				"BATCH_SIZE"
+			],
+			[
+				"relu",
+				"relu1"
+			],
+			[
+				"n_",
+				"n_classes"
+			],
+			[
+				"cur",
+				"current_map_side"
+			],
+			[
+				"cu",
+				"current_map_side"
+			],
+			[
+				"get_",
+				"get_residual_block"
+			],
+			[
+				"init",
+				"intial_n_filters"
+			],
+			[
+				"img_",
+				"img_channels"
+			],
+			[
+				"na",
+				"name_scope"
+			],
+			[
+				"conv",
+				"conv_plus_bias"
+			],
+			[
+				"con",
+				"conv_plus_bias"
+			],
+			[
+				"wei",
+				"weight_decay"
+			],
+			[
+				"kern",
+				"kernel_size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10996,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"Traditional"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": ":w",
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				":ws",
+				":w - Save"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"The",
+				"Thesaurus search"
+			],
+			[
+				":insta",
+				"Package Control: Install Package"
+			],
+			[
+				":ena",
+				"Package Control: Enable Package"
+			],
+			[
+				":disa",
+				"Package Control: Disable Package"
+			],
+			[
+				":wr",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				":inst",
+				"Package Control: Install Package"
+			],
+			[
+				":pack",
+				"Package Control: Install Package"
+			],
+			[
+				":late",
+				"Build With: LaTeX - PdfLaTeX"
+			],
+			[
+				":la",
+				"Build With: LaTeX - PdfLaTeX"
+			],
+			[
+				":latex",
+				"Build With: LaTeX - Traditional"
+			],
+			[
+				":Latex",
+				"Build With: LaTeX - PdfLaTeX"
+			],
+			[
+				":LaTeX",
+				"LaTeXTools: Build cache of LaTeX packages"
+			],
+			[
+				":pak",
+				"Preferences: Browse Packages"
+			],
+			[
+				":indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"fold",
+				"Python Docstrings: Fold"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 177.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28"
+	],
+	"file_history":
+	[
+		"/home/cesar/Dropbox/my_projects/danielaecesar.com/css/style.css",
+		"/home/cesar/Dropbox/my_projects/danielaecesar.com/index.html",
+		"/home/cesar/Dropbox/my_projects/danielaecesar.com/contact.html",
+		"/home/cesar/Desktop/wedding/wedding/index.html",
+		"/home/cesar/Desktop/wedding/wedding/README.txt",
+		"/home/cesar/Desktop/site_para_download.txt",
+		"/home/cesar/github/doom_ports/doomlegacy_1.46.3_source/src/r_draw.c",
+		"/home/cesar/Desktop/online_proofreader.keys",
+		"/home/cesar/applications/Gogland-172.3968.45/build.txt",
+		"/home/cesar/applications/Gogland-172.3968.45/Install-Linux-tar.txt",
+		"/home/cesar/Dropbox/programming/learning/AprendendoJava/Headfirst Java/pag008/MyFirstApp.java",
+		"/home/cesar/Dropbox/programming/criar como ultima subpasta o sistema operacional.txt",
+		"/home/cesar/Downloads/sublime_text_3/changelog.txt",
+		"/home/cesar/Desktop/temp_to_send/new_supp_material/supp_material/trying_median_alternatives.tex",
+		"/home/cesar/Desktop/ap_corte_real_venda/input.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28/supp_material/trying_median_alternatives.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28/supp_material/regen.sh",
+		"/home/cesar/Desktop/temp_to_send/supp_material/trying_median_alternatives.tex",
+		"/home/cesar/Desktop/temp_to_send/supp_material/clf_on_gt_normalized.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28/supp_material/supp_material.tex",
+		"/home/cesar/Desktop/temp_to_send/supp_material/supp_material.tex",
+		"/home/cesar/Dropbox/letras_de_musicas/Jack Johnson/Inaudible Melodies.txt",
+		"/home/cesar/dropbox_complement/programming/learning/kivy/official_guide/pong/main.py",
+		"/home/cesar/dropbox_complement/programming/learning/kivy/official_guide/pong/pong.kv",
+		"/home/cesar/Dropbox/letras_de_musicas/cidade negra/Pensamento.txt",
+		"/home/cesar/Dropbox/letras_de_musicas/cidade negra/Onde você mora.txt",
+		"/home/cesar/Dropbox/letras_de_musicas/cidade negra/O Erê.txt",
+		"/home/cesar/Dropbox/letras_de_musicas/cidade negra/Girassol.txt",
+		"/home/cesar/Dropbox/letras_de_musicas/cidade negra/A Sombra da Maldade.txt",
+		"/home/cesar/Dropbox/letras_de_musicas/cidade negra/A Estrada.txt",
+		"/home/cesar/Dropbox/letras_de_musicas/cidade negra/A Cor do Sol.txt",
+		"/home/cesar/applications/pycharm-community-2017.2.2/Install-Linux-tar.txt",
+		"/home/cesar/.buildozer/crystax-ndk-10.3.2/README.md",
+		"/home/cesar/Dropbox/programming/learning/kivy/official_guide/paint_app/paint.py",
+		"/home/cesar/Dropbox/programming/programming_pearls/column8/max_sum_interval.py",
+		"/home/cesar/Dropbox/programming/programming_pearls/column8/already_done.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation2/tutorial.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver26/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation2/results/cross_dataset_experiments/cross_exps/train_3456_raw_toa_size9/val_3456_raw_toa_size9/find_optim_erosion_kernel_size/val_rois/min_dist_per_clf.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver19/06_02finding_best_cnc.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver19/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver19/06_05best_clf_on_surface_reflectance.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver19/06_04best_clf_on_unnormed.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver20/06_02finding_best_cnc.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation2/results/best_clf_on_unnormalized/final_latex_tables/single_run_seg_accus.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver23/06_04best_clf_on_unnormed.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation2/results/best_clf_on_surface_reflectance/final_latex_tables/single_run_seg_accus.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation2/results/best_clf_on_surface_reflectance/final_latex_tables/single_run_defo_f1s.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation2/results/best_clf_on_surface_reflectance/final_latex_tables/single_run.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver23/06_02finding_best_cnc.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/codigo_para_phellippe/tensorflowed/README.md",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/codigo_para_phellippe/tensorflowed/LICENSE",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/data/usgs_landsat_8/file.tfw",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/data/usgs_landsat_8/recipe_to_prepare_this_kind_of_folder.txt",
+		"/home/cesar/Desktop/codigo_para_Phellippe/best_cnc_instance.py",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28/main.tex",
+		"/home/cesar/Desktop/codigo_para_philipe/cnc_framework.py",
+		"/home/cesar/Desktop/codigo_para_philipe/best_cnc_instance.py",
+		"/home/cesar/Desktop/codigo_para_philipe/dogml/todo.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28/reply/reply.tex",
+		"/home/cesar/Desktop/temp_to_send/ver28/main_source_files/main.tex",
+		"/home/cesar/Desktop/temp_to_send/ver28/reply/reply.tex",
+		"/tmp/mozilla_cesar0/diff-2.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28/diff.tex",
+		"/tmp/mozilla_cesar0/diff-1.tex",
+		"/tmp/mozilla_cesar0/diff.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28/main.bib",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28/deforestation.sublime-project",
+		"/home/cesar/Desktop/cracking/chapter01.txt",
+		"/home/cesar/Desktop/cracking/chapter02.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver27/main.bib",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver27/main.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/06_05best_clf_on_surface_reflectance.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/06_02finding_best_cnc.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/05data.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/04method.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/01introduction.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/main.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/06_01experimental_setup.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/07discussion.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/06_04best_clf_on_unnormed.tex",
+		"/home/cesar/Downloads/LaTeX/template.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/main2.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/other_abrvs.bib",
+		"/tmp/mozilla_cesar0/10.1007%2Fs12145-016-0270-6.bib",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/main.bib",
+		"/tmp/mozilla_cesar0/10.1007%2Fs12145-014-0169-z.bib",
+		"/tmp/tmp0bsfq4/30bca92c68fc6e56c897f5d4c723232f/main.bbl",
+		"/tmp/mozilla_cesar0/10.1007%2Fs12145-015-0217-3.bib",
+		"/home/cesar/Downloads/svjour/readme.1st",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/supp_material/supp_material.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/supp_material/clf_on_gt_normalized.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/supp_material/dc_on_unnormalized.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/supp_material/clf_on_surface_reflectance.tex",
+		"/home/cesar/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/deforestation.sublime-project",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver24/template.tex",
+		"/home/cesar/Downloads/LaTeX/readme.txt",
+		"/home/cesar/Downloads/LaTeX/history.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/manual_experiments/experiments_on_gt_unit_var/final_latex_tables/single_run_defo_f1s.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/manual_experiments/experiments_on_gt_mean/final_latex_tables/single_run_defo_f1s.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/manual_experiments/best_cnc/vs_prodes/table.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver23/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/data/usgs_landsat_8/porto_acre/compare/2013196_2014231/window01/best_cnc_results/rbf_c_1e-01_accu_val_0p96256_accu_test_0p98547_defo_area_accu_0p16011_defo_alert_accu_0p19001/only_prodes_paths/fine_resolution_false/closing_false/alternative2_true/d_inc_0_compact.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/manual_experiments/best_cnc/vs_prodes/rbf_svm_glcm9/final_args/table.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/manual_experiments/best_cnc/vs_prodes/rbf_svm_glcm9/table.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver22/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver21/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver20/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver18/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver17/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver16/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver15/06_06cnc_vs_prodes.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/data/usgs_landsat_8/seringueiras/compare/2013216_2015174/window01/best_cnc_results/d_inc_0_compact.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/data/usgs_landsat_8/seringueiras/compare/2013216_2015174/window01/best_cnc_results/d_inc_0.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/manual_experiments/experiments_on_gt_zca/tt_sizes_1_3_5_9_scaled_linear_svm_many_runs1/accus_table.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/manual_experiments/experiments_on_gt_zca/tt_sizes_1_3_5_9_scaled_QDA_small_many_runs1/accus_table.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/manual_experiments/experiments_on_gt_zca/tt_sizes_1_3_5_9_scaled_rbf_svm_many_runs1/accus_table.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/manual_experiments/experiments_on_gt_zca/tt_sizes_1_3_5_9_scaled_LDA_small_many_runs1/accus_table.txt",
+		"/home/cesar/Desktop/references.txt",
+		"/tmp/mozilla_cesar0/references-1.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver23/references.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver23/main.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver23/main.txt",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver21/08conclusion.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver21/06_02finding_best_cnc.tex",
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver21/04method.tex"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"logo",
+			"Daniela",
+			"event",
+			"couple",
+			"story",
+			"contact",
+			"story",
+			"title",
+			"Date",
+			"pos",
+			"PongGame",
+			"find",
+			"get_LDAsmall3_clf1_and_erosion_ksize_and_clf2",
+			"Classifying an entire Landsat4",
+			"forest regions",
+			"\\\\hat",
+			"hat",
+			"fig:",
+			"tab",
+			"color_space",
+			"color",
+			"Domain",
+			"cause",
+			"{fig/f",
+			"figure",
+			"b.png",
+			"figure",
+			"pdf",
+			"png",
+			".pdf",
+			"b.png",
+			"figure",
+			"b.png",
+			"figure",
+			"~",
+			"Landsat",
+			"problem",
+			"landsat",
+			"cite",
+			"there",
+			"ESI",
+			"ESE",
+			"SoaresFilho201380",
+			"Wang20101149",
+			"Blaschke20102",
+			"rembold2015spirits",
+			"figure",
+			"hline",
+			"warnings",
+			"natbib",
+			"hline",
+			"}{!}{%",
+			"-/-",
+			"table",
+			"footnotesize",
+			"tabular",
+			"\\\\%",
+			"\\%",
+			"figure",
+			"pdf",
+			"chavez1988improved",
+			"Hansen2008",
+			"#",
+			"{.+{.+}.+}",
+			"gis",
+			"{tm}",
+			"TM",
+			"accurate",
+			"provide",
+			"shown",
+			"Table",
+			"zero",
+			"call",
+			"Adaptive",
+			"zanotta2015adaptive",
+			"semisu",
+			"overview",
+			"matasci2015semisupervised",
+			"tuia2013",
+			"Graph",
+			"semisuper",
+			"tuia",
+			"RSE",
+			"When and How",
+			"Song2001230",
+			"tuia",
+			"domain",
+			"tbh",
+			"figure",
+			"date",
+			"pprinttitle",
+			"landscape",
+			"tabular",
+			"\n}",
+			"table",
+			"tabular",
+			"table",
+			"frontmatter",
+			"framework",
+			"figure",
+			"deforestation",
+			"\\review",
+			"30m",
+			"note",
+			"Classify-Norm",
+			"subtra",
+			"let",
+			"lets",
+			"The firs",
+			"are",
+			"are not",
+			"this",
+			"from",
+			"alread",
+			"\n}",
+			"bgroup",
+			"graphics",
+			"figures/experiments/deforestation_masks/cnc_vs_prodes/new_way/without_closing/seringueiras/",
+			"figures/experiments/deforestation_masks/cnc_vs_prodes/new_way/without_closing/porto_acre/",
+			"figures/experiments/deforestation_masks/cnc_vs_prodes/new_way/without_closing/placido_de_castro/",
+			"plos",
+			"booktitle",
+			"AISTATS",
+			"booktitle",
+			"inproceedings",
+			"basu2015deepsat",
+			"inproceedings",
+			"AISTATS’10"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"{f",
+			"-",
+			"",
+			"\\reviewmode",
+			"ser_",
+			"pa_",
+			"pdc_",
+			"_pdc",
+			"\\subsubsection",
+			"$\\mid$",
+			"$f_{cnc}^{rbf\\text{-}glcm9}$",
+			"unnormed_toa",
+			"seringueiras",
+			"tile",
+			"tiles",
+			"image",
+			"get_variable",
+			"variable_scope",
+			"residual_blks_per_subsample",
+			"similarity"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4582,
+								4582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1515.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 185.0
+	},
+	"pinned_build_system": "",
+	"project": "wedding.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
