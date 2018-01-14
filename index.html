@@ -69,8 +69,13 @@
 
 	</head>
 	<body>
-		
+
 	<div class="fh5co-loader"></div>
+
+	<!-- <audio id="music" style="display:none;" controls loop autoplay>
+		<source src="http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a">
+		Your browser does not support the audio element.
+	</audio> -->
 	
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
@@ -83,8 +88,14 @@
 					<ul>
 						<li class="active"><a href="index.html">Página Inicial</a></li>
                         <li class="active"><a href="#presents">Presentes</a></li>
-                        <li class="active"><a href="#fh5co-gallery">Galeria</a></li>
-                        <li class="active"><a href="#fh5co-event">Data e Local</a></li>
+						<li class="active"><a href="#fh5co-gallery">Galeria</a></li>
+						<li class="active"><a href="#hotels">Twitter</a></li>
+						<li class="active"><a href="#fh5co-event">Data e Local</a></li>
+						<li class="active">
+							<a id="mute" href="#noscroll">
+								<img id="muteImg" src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Mute_Icon.svg" style="width: 15px; height: 15px">
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -190,7 +201,7 @@
         </div>
     </div>
 
-	<div id="fh5co-gallery" class="fh5co-section-gray">
+	<div id="fh5co-gallery">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -240,6 +251,59 @@
 						</li>
 					</ul>
 				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Confirmação</h2>
+					<p>Porfavor, preecha os campos abaixo se você irá comparecer ao nosso casamento. Obrigado.</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-10 col-md-offset-1">
+					<form class="form-inline">
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="name" class="sr-only">Nome</label>
+								<input type="name" class="form-control" id="name" placeholder="Nome">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="email" class="sr-only">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<button type="submit" class="btn btn-default btn-block">Eu irei!</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<div id="hotels" class="fh5co-section-gray">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Feed</span>
+					<h2>Twitter</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-6 col-sm-6 text-center col-md-offset-3">
+							<a class="twitter-timeline"  href="https://twitter.com/search?q=%23casamentoDanielaECesar%20OR%20%40daniecesar1" data-widget-id="952546545223782400">Tweets about #casamentoDanielaECesar OR @daniecesar1</a>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -314,8 +378,32 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA"></script>
 	<script src="js/google_map.js"></script>
+
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+	<script>
+		var currentIndex = 0;
+		var imgSrcs = new Array("http://upload.wikimedia.org/wikipedia/commons/3/3f/Mute_Icon.svg", "http://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg")
+		var audio = document.getElementById('background_audio');
+		var musicElem = $('<iframe id="music" style="display: none" width="560" height="315" src="https://www.youtube.com/embed/q9rFimKIue4?autoplay=1&amp;loop=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;start=24" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+		$("body").append(musicElem);
+		muteElem = document.getElementById('mute');
+		muteImg = document.getElementById('muteImg');
+		muteElem.addEventListener('click', function (e) {
+			e = e || window.event;
+			music = document.getElementById("music");
+			if (music) {
+				document.body.removeChild(music)
+			} else {
+				$("body").append(musicElem);
+			}
+			currentIndex++;
+			muteImg.src = imgSrcs[currentIndex % 2];
+			e.preventDefault();
+		}, false);
+	</script>
 
 	<script>
     var d = new Date(2018, 3, 24, 17);
@@ -334,7 +422,7 @@
         day: d.getDate(),
         enableUtc: false
     });
-</script>
+	</script>
 
 	</body>
 </html>
