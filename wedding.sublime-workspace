@@ -183,15 +183,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 10996,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
@@ -255,6 +246,14 @@
 			[
 				":w",
 				":w - Save"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: por",
+				"Package Control: Add Repository"
 			],
 			[
 				":q",
@@ -366,14 +365,16 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver28"
+		"/home/cesar/Dropbox/my_projects/danielaecesar.com",
+		"/home/cesar/Dropbox/my_projects/danielaecesar.com/css"
 	],
 	"file_history":
 	[
 		"/home/cesar/Dropbox/my_projects/danielaecesar.com/css/style.css",
-		"/home/cesar/Dropbox/my_projects/danielaecesar.com/index.html",
-		"/home/cesar/Dropbox/my_projects/danielaecesar.com/contact.html",
 		"/home/cesar/Desktop/wedding/wedding/index.html",
+		"/home/cesar/Dropbox/my_projects/danielaecesar.com/index.html",
+		"/home/cesar/Dropbox/my_projects/danielaecesar.com/wedding.sublime-project",
+		"/home/cesar/Dropbox/my_projects/danielaecesar.com/contact.html",
 		"/home/cesar/Desktop/wedding/wedding/README.txt",
 		"/home/cesar/Desktop/site_para_download.txt",
 		"/home/cesar/github/doom_ports/doomlegacy_1.46.3_source/src/r_draw.c",
@@ -496,8 +497,7 @@
 		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver23/main.tex",
 		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver23/main.txt",
 		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver21/08conclusion.tex",
-		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver21/06_02finding_best_cnc.tex",
-		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver21/04method.tex"
+		"/home/cesar/Dropbox/programming/academic/masters/deforestation/paper/versions/ver21/06_02finding_best_cnc.tex"
 	],
 	"find":
 	{
@@ -515,6 +515,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"aqui",
+			"camicado",
+			"h3",
+			"event",
+			"color",
+			"desc",
 			"logo",
 			"Daniela",
 			"event",
@@ -636,13 +642,7 @@
 			"figures/experiments/deforestation_masks/cnc_vs_prodes/new_way/without_closing/porto_acre/",
 			"figures/experiments/deforestation_masks/cnc_vs_prodes/new_way/without_closing/placido_de_castro/",
 			"plos",
-			"booktitle",
-			"AISTATS",
-			"booktitle",
-			"inproceedings",
-			"basu2015deepsat",
-			"inproceedings",
-			"AISTATS’10"
+			"booktitle"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -680,37 +680,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10996,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4582,
-								4582
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1515.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -720,7 +691,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -757,7 +728,7 @@
 	"project": "wedding.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
