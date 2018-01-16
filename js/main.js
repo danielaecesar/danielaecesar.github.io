@@ -13,7 +13,15 @@
     			$('body').removeClass('offcanvas');
     			$('.js-fh5co-nav-toggle').removeClass('active');
 	    	}
-	    }
+		}
+		container = $("#fh5co-offcanvas ul li a");
+	    if (container.is(e.target) || container.has(e.target).length > 0) {
+	    	if ( $('body').hasClass('offcanvas') ) {
+
+    			$('body').removeClass('offcanvas');
+    			$('.js-fh5co-nav-toggle').removeClass('active');
+	    	}
+		}
 		});
 
 	};
