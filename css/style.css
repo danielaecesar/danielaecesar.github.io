@@ -222,6 +222,10 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff !important;
 }
 
+#presents {
+  height: 830px;
+}
+
 #fh5co-counter,
 #fh5co-event,
 .fh5co-bg, #presents {
@@ -354,7 +358,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter,
-#fh5co-event, #presents {
+#fh5co-event {
   height: 550px;
   float: left;
 }
@@ -364,7 +368,6 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .display-tc,
 #presents .display-t,
 #presents .display-tc {
-  height: 550px;
   display: table;
   width: 100%;
 }
@@ -761,7 +764,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #map {
-    height: 200px;
+    height: 500px;
   }
 }
 
@@ -1155,10 +1158,18 @@ form label {
   .couple-half .desc-groom {
     padding-right: 0;
     text-align: center;
+    position: initial;
+    top: initial;
+    transform: initial;
+    right: initial;
   }
   .couple-half .desc-bride {
     padding-left: 0;
     text-align: center;
+    position: initial;
+    top: initial;
+    transform: initial;
+    right: initial;
   }
 }
 
