@@ -222,10 +222,6 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff !important;
 }
 
-#presents {
-  height: 830px;
-}
-
 #fh5co-counter,
 #fh5co-event,
 .fh5co-bg, #presents {
@@ -357,6 +353,18 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+#presents-list {
+  display: flex;
+}
+@media screen and (max-width: 900px) {
+  #presents-list {
+    display: initial;
+  }
+}
+
+#presents {
+  height: 830px;
+}
 #fh5co-counter,
 #fh5co-event {
   height: 550px;
@@ -395,7 +403,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   background: rgba(0, 0, 0, 0.4);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   #fh5co-counter,
   #presents,
   #fh5co-event {
@@ -1964,5 +1972,8 @@ form label {
   }
 }
 
+.break-word {
+  overflow-wrap: break-word;
+}
 
 /*# sourceMappingURL=style.css.map */
