@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event,
-.fh5co-bg, #presents {
+.fh5co-bg, #presents, #independent {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -365,6 +365,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #presents {
   height: 830px;
 }
+#independent {
+  height: 750px;
+}
 #fh5co-counter,
 #fh5co-event {
   height: 550px;
@@ -374,6 +377,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .display-tc,
 #fh5co-event .display-t,
 #fh5co-event .display-tc,
+#independent .display-t,
+#independent .display-tc,
 #presents .display-t,
 #presents .display-tc {
   display: table;
@@ -386,6 +391,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .fh5co-heading span,
 #presents .fh5co-heading span,
+#independent .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
@@ -395,6 +401,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .overlay,
 #presents .overlay,
+#independent .overlay,
 #fh5co-event .overlay {
   position: absolute;
   top: 0;
@@ -406,6 +413,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 1200px) {
   #fh5co-counter,
   #presents,
+  #independent,
   #fh5co-event {
     height: inherit;
     padding: 7em 0;
@@ -414,13 +422,19 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-counter .display-tc,
   #presents .display-t,
   #presents .display-tc,
+  #independent .display-t,
+  #independent .display-tc,
   #fh5co-event .display-t,
   #fh5co-event .display-tc {
     height: inherit;
   }
 }
+#independent .event-wrap {
+  margin: 15px;
+}
 #fh5co-counter .event-wrap,
 #presents .event-wrap,
+#independent .event-wrap,
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.1);
@@ -435,12 +449,14 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
   #presents .event-wrap,
+  #independent .event-wrap,
   #fh5co-event .event-wrap {
     margin-bottom: 10px;
   }
 }
 #fh5co-counter .event-wrap h3,
 #presents .event-wrap h3,
+#independent .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
   color: #fff;
@@ -453,6 +469,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span,
+#independent .event-wrap p,
+#independent .event-wrap span,
 #presents .event-wrap p,
 #presents .event-wrap span {
   display: block;
@@ -460,12 +478,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap i,
 #presents .event-wrap i,
+#independent .event-wrap i,
 #fh5co-event .event-wrap i {
   color: white;
   font-size: 20px;
 }
 #fh5co-counter .event-wrap .event-col,
 #presents .event-wrap .event-col,
+#independent .event-wrap .event-col,
 #fh5co-event .event-wrap .event-col {
   width: 50%;
   float: left;
@@ -1024,6 +1044,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 #presents,
+#independent,
 #hotels,
 .fh5co-section {
   padding: 7em 0;
@@ -1036,6 +1057,7 @@ form label {
   #fh5co-footer,
   #fh5co-event,
   #presents,
+  #independent,
   #fh5co-couple-story,
   #fh5co-couple,
   #fh5co-gallery,
@@ -1044,7 +1066,7 @@ form label {
   }
 }
 
-#fh5co-event, #presents {
+#fh5co-event, #presents, #independent {
   padding: 2em 0;
   clear: both;
 }
