@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 830px;
 }
 #independent {
-  height: 750px;
+  height: 970px;
 }
 #fh5co-counter,
 #fh5co-event {
@@ -490,6 +490,9 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 50%;
   float: left;
   margin-bottom: 30px;
+}
+#independent p {
+  color: white;
 }
 
 #fh5co-counter {
