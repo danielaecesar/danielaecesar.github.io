@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 830px;
 }
 #independent {
-  height: 970px;
+  height: auto;
 }
 #fh5co-counter,
 #fh5co-event {
